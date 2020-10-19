@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
+
 import Logo from "./logo";
+
 
 export default class App extends Component {
   render() {
@@ -8,7 +10,8 @@ export default class App extends Component {
         <div>
           <Logo/>
         </div>
-        <h1>My Cookbook</h1>
+        
+        <h1>My recipes</h1>
         
       </div>
     );
